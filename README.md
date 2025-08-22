@@ -58,3 +58,30 @@ The final step was to train the top 3 models on the *entire* historical dataset 
 3.  This new result influences the team's "form" for the *next* match's prediction.
 4.  This process repeats for all 380 games, resulting in a complete, predicted league table.
 
+   --- PREDICTED FINAL TABLE (LightGBM) ---
+                       Team   P   W   D   L   GF   GA  Pts  GD
+1                  Man City  38  34   2   2  154  119  104  35
+2                 Liverpool  38  34   2   2  119   86  104  33
+3                   Man Utd  38  31   2   5  118   92   95  26
+4                   Chelsea  38  30   2   6  117   93   92  24
+5                   Arsenal  38  29   2   7  154  132   89  22
+6                     Spurs  38  25   1  12  120  105   76  15
+7         Nottingham Forest  38  17   8  13  108  103   59   5
+8                Sunderland  38  19   2  17  105  101   59   4
+9   Wolverhampton Wanderers  38  17   4  17  105  108   55  -3
+10              Aston Villa  38  17   2  19   96   98   53  -2
+11   Brighton & Hove Albion  38  10  17  11   98   99   47  -1
+12                    Leeds  38  15   2  21  115  121   47  -6
+13                Newcastle  38  11   4  23  118  130   37 -12
+14              Bournemouth  38   9   7  22  118  132   34 -14
+15                Brentford  38  10   0  28  138  157   30 -19
+16                   Fulham  38   9   1  28  123  142   28 -19
+17                  Burnley  38   8   3  27  120  141   27 -21
+18                 West Ham  38   8   2  28  119  141   26 -22
+19           Crystal Palace  38   6   5  27  123  144   23 -21
+20                  Everton  38   4   6  28  128  152   18 -24
+
+
+
+*** The models predictions are purely based on some key features that I manually engineered. The current season depends on lot of factors like team signings, transfers, injuries, players last game forms ( including pre season friendly ), formations, and other things. This could be applied as features in a new project file which I am currently working on ***
+
