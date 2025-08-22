@@ -70,56 +70,6 @@ This process was repeated for all 380 games, resulting in a complete, predicted 
 
 Here are the final predicted league tables for the 2025-2026 season from each of the top 3 performing models.
 
-### 🥇 Prediction from Gaussian Naive Bayes
-
-| Pos | Team                      | P  | W  | D  | L  | GF  | GA  | Pts | GD  |
-| --- | ------------------------- | -- | -- | -- | -- | --- | --- | --- | --- |
-| 1   | Man City                  | 38 | 33 | 3  | 2  | 149 | 115 | 102 | 34  |
-| 2   | Liverpool                 | 38 | 32 | 4  | 2  | 115 | 84  | 100 | 31  |
-| 3   | Man Utd                   | 38 | 30 | 3  | 5  | 115 | 90  | 93  | 25  |
-| 4   | Chelsea                   | 38 | 29 | 4  | 5  | 114 | 91  | 91  | 23  |
-| 5   | Arsenal                   | 38 | 28 | 3  | 7  | 150 | 129 | 87  | 21  |
-| 6   | Spurs                     | 38 | 24 | 2  | 12 | 118 | 104 | 74  | 14  |
-| 7   | Sunderland                | 38 | 19 | 3  | 16 | 104 | 100 | 60  | 4   |
-| 8   | Nottingham Forest         | 38 | 16 | 9  | 13 | 106 | 102 | 57  | 4   |
-| 9   | Wolverhampton Wanderers   | 38 | 17 | 5  | 16 | 104 | 107 | 56  | -3  |
-| 10  | Aston Villa               | 38 | 17 | 3  | 18 | 95  | 97  | 54  | -2  |
-| 11  | Brighton & Hove Albion    | 38 | 10 | 16 | 12 | 97  | 98  | 46  | -1  |
-| 12  | Leeds                     | 38 | 15 | 1  | 22 | 114 | 120 | 46  | -6  |
-| 13  | Newcastle                 | 38 | 11 | 5  | 22 | 117 | 129 | 38  | -12 |
-| 14  | Bournemouth               | 38 | 9  | 8  | 21 | 117 | 131 | 35  | -14 |
-| 15  | Brentford                 | 38 | 10 | 1  | 27 | 137 | 156 | 31  | -19 |
-| 16  | Fulham                    | 38 | 9  | 2  | 27 | 122 | 141 | 29  | -19 |
-| 17  | Burnley                   | 38 | 8  | 4  | 26 | 119 | 140 | 28  | -21 |
-| 18  | West Ham                  | 38 | 8  | 3  | 27 | 118 | 140 | 27  | -22 |
-| 19  | Crystal Palace            | 38 | 6  | 6  | 26 | 122 | 143 | 24  | -21 |
-| 20  | Everton                   | 38 | 4  | 7  | 27 | 127 | 151 | 19  | -24 |
-
-### 🥈 Prediction from Logistic Regression
-
-| Pos | Team                      | P  | W  | D  | L  | GF  | GA  | Pts | GD  |
-| --- | ------------------------- | -- | -- | -- | -- | --- | --- | --- | --- |
-| 1   | Liverpool                 | 38 | 35 | 1  | 2  | 120 | 85  | 106 | 35  |
-| 2   | Man City                  | 38 | 33 | 3  | 2  | 152 | 118 | 102 | 34  |
-| 3   | Man Utd                   | 38 | 31 | 3  | 4  | 119 | 91  | 96  | 28  |
-| 4   | Chelsea                   | 38 | 30 | 3  | 5  | 118 | 92  | 93  | 26  |
-| 5   | Arsenal                   | 38 | 29 | 3  | 6  | 152 | 130 | 90  | 22  |
-| 6   | Spurs                     | 38 | 25 | 2  | 11 | 121 | 106 | 77  | 15  |
-| 7   | Nottingham Forest         | 38 | 18 | 7  | 13 | 109 | 104 | 61  | 5   |
-| 8   | Sunderland                | 38 | 19 | 3  | 16 | 106 | 102 | 60  | 4   |
-| 9   | Wolverhampton Wanderers   | 38 | 17 | 5  | 16 | 106 | 109 | 56  | -3  |
-| 10  | Aston Villa               | 38 | 17 | 3  | 18 | 97  | 99  | 54  | -2  |
-| 11  | Brighton & Hove Albion    | 38 | 10 | 18 | 10 | 99  | 100 | 48  | -1  |
-| 12  | Leeds                     | 38 | 15 | 3  | 20 | 116 | 122 | 48  | -6  |
-| 13  | Newcastle                 | 38 | 11 | 5  | 22 | 119 | 131 | 38  | -12 |
-| 14  | Bournemouth               | 38 | 9  | 8  | 21 | 119 | 133 | 35  | -14 |
-| 15  | Brentford                 | 38 | 10 | 1  | 27 | 139 | 158 | 31  | -19 |
-| 16  | Fulham                    | 38 | 9  | 2  | 27 | 124 | 143 | 29  | -19 |
-| 17  | Burnley                   | 38 | 8  | 4  | 26 | 121 | 142 | 28  | -21 |
-| 18  | West Ham                  | 38 | 8  | 3  | 27 | 120 | 142 | 27  | -22 |
-| 19  | Crystal Palace            | 38 | 6  | 6  | 26 | 124 | 145 | 24  | -21 |
-| 20  | Everton                   | 38 | 4  | 7  | 27 | 129 | 153 | 19  | -24 |
-
 ### 🥉 Prediction from LightGBM
 
 | Pos | Team                      | P  | W  | D  | L  | GF  | GA  | Pts | GD  |
